@@ -13,4 +13,4 @@ today = datetime.datetime.today().strftime('%Y-%m-%d')
 combined_df['combined_file_generation_date'] = today
 
 # Save to a new CSV file
-combined_df.to_csv('weekend_data.csv', index=False)
+combined_df.to_csv('weekend_data.csv', index=False, sep=";")
